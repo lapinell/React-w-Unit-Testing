@@ -1,0 +1,35 @@
+{
+  "name": "react_with_unit_testing",
+  "version": "1.0.0",
+  "description": "A React boilerplate including unit testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapinell/React-w-Unit-Testing.git"
+  },
+  "keywords": [
+    "react",
+    "chai",
+    "enzyme",
+    "unit test",
+    "component test",
+    "jest",
+    "webpack",
+    "babel"
+  ],
+  "author": "Laura Pinell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapinell/React-w-Unit-Testing/issues"
+  },
+  "homepage": "https://github.com/lapinell/React-w-Unit-Testing#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
